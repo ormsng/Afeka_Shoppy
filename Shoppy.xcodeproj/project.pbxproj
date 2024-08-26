@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C14867242C79C13600F0862F /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14867232C79C13600F0862F /* ProductDetailView.swift */; };
+		C14867262C7A214B00F0862F /* FirebaseDatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14867252C7A214B00F0862F /* FirebaseDatabaseService.swift */; };
+		C14867282C7B1E2500F0862F /* Shoppy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C14867272C7B1E2500F0862F /* Shoppy.jpeg */; };
+		C148672A2C7B1F0600F0862F /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14867292C7B1F0600F0862F /* LaunchScreen.swift */; };
+		C15407522C674CA400D6141B /* ShoppyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15407512C674CA400D6141B /* ShoppyApp.swift */; };
+		C15407542C674CA400D6141B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15407532C674CA400D6141B /* ContentView.swift */; };
+		C15407562C674CA600D6141B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C15407552C674CA600D6141B /* Assets.xcassets */; };
+		C15407592C674CA600D6141B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C15407582C674CA600D6141B /* Preview Assets.xcassets */; };
+		C15407632C674CA900D6141B /* ShoppyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15407622C674CA900D6141B /* ShoppyTests.swift */; };
+		C154076D2C674CA900D6141B /* ShoppyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154076C2C674CA900D6141B /* ShoppyUITests.swift */; };
+		C154076F2C674CA900D6141B /* ShoppyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154076E2C674CA900D6141B /* ShoppyUITestsLaunchTests.swift */; };
+		C154077C2C674D2C00D6141B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154077B2C674D2C00D6141B /* LoginView.swift */; };
+		C154077E2C674D4D00D6141B /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154077D2C674D4D00D6141B /* MainTabView.swift */; };
+		C15407802C674D6300D6141B /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154077F2C674D6300D6141B /* StoreView.swift */; };
+		C15407822C674D7D00D6141B /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15407812C674D7D00D6141B /* CartView.swift */; };
+		C15407842C674D8E00D6141B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15407832C674D8E00D6141B /* Product.swift */; };
+		C15407872C67857600D6141B /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15407862C67857600D6141B /* RegisterView.swift */; };
+		C154078A2C67864000D6141B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C15407892C67864000D6141B /* FirebaseAuth */; };
+		C154078C2C67864000D6141B /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = C154078B2C67864000D6141B /* FirebaseDatabase */; };
+		C154078E2C67864000D6141B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C154078D2C67864000D6141B /* FirebaseFirestore */; };
+		C15407902C67864000D6141B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C154078F2C67864000D6141B /* FirebaseStorage */; };
+		C175DBA62C67925C00379433 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C175DBA52C67925C00379433 /* AuthViewModel.swift */; };
+		C17C00352C679ACE00DDF6F9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C17C00342C679ACE00DDF6F9 /* GoogleService-Info.plist */; };
+		C1914E5E2C678C4A003BFA89 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = C1914E5D2C678C4A003BFA89 /* GoogleSignIn */; };
+		C1914E602C678C4A003BFA89 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C1914E5F2C678C4A003BFA89 /* GoogleSignInSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C154075F2C674CA900D6141B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C15407462C674CA400D6141B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C154074D2C674CA400D6141B;
+			remoteInfo = Shoppy;
+		};
+		C15407692C674CA900D6141B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C15407462C674CA400D6141B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C154074D2C674CA400D6141B;
+			remoteInfo = Shoppy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C14867232C79C13600F0862F /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		C14867252C7A214B00F0862F /* FirebaseDatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseDatabaseService.swift; sourceTree = "<group>"; };
+		C14867272C7B1E2500F0862F /* Shoppy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Shoppy.jpeg; path = ../../../../Downloads/Shoppy.jpeg; sourceTree = "<group>"; };
+		C14867292C7B1F0600F0862F /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		C154074E2C674CA400D6141B /* Shoppy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shoppy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C15407512C674CA400D6141B /* ShoppyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppyApp.swift; sourceTree = "<group>"; };
+		C15407532C674CA400D6141B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C15407552C674CA600D6141B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C15407582C674CA600D6141B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C154075E2C674CA900D6141B /* ShoppyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C15407622C674CA900D6141B /* ShoppyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppyTests.swift; sourceTree = "<group>"; };
+		C15407682C674CA900D6141B /* ShoppyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C154076C2C674CA900D6141B /* ShoppyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppyUITests.swift; sourceTree = "<group>"; };
+		C154076E2C674CA900D6141B /* ShoppyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C154077B2C674D2C00D6141B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C154077D2C674D4D00D6141B /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		C154077F2C674D6300D6141B /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
+		C15407812C674D7D00D6141B /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		C15407832C674D8E00D6141B /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		C15407862C67857600D6141B /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		C15407942C67875800D6141B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C175DBA52C67925C00379433 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		C17C00342C679ACE00DDF6F9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C154074B2C674CA400D6141B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1914E5E2C678C4A003BFA89 /* GoogleSignIn in Frameworks */,
+				C154078C2C67864000D6141B /* FirebaseDatabase in Frameworks */,
+				C15407902C67864000D6141B /* FirebaseStorage in Frameworks */,
+				C1914E602C678C4A003BFA89 /* GoogleSignInSwift in Frameworks */,
+				C154078A2C67864000D6141B /* FirebaseAuth in Frameworks */,
+				C154078E2C67864000D6141B /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C154075B2C674CA900D6141B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15407652C674CA900D6141B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C15407452C674CA400D6141B = {
+			isa = PBXGroup;
+			children = (
+				C15407502C674CA400D6141B /* Shoppy */,
+				C15407612C674CA900D6141B /* ShoppyTests */,
+				C154076B2C674CA900D6141B /* ShoppyUITests */,
+				C154074F2C674CA400D6141B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C154074F2C674CA400D6141B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C154074E2C674CA400D6141B /* Shoppy.app */,
+				C154075E2C674CA900D6141B /* ShoppyTests.xctest */,
+				C15407682C674CA900D6141B /* ShoppyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C15407502C674CA400D6141B /* Shoppy */ = {
+			isa = PBXGroup;
+			children = (
+				C15407942C67875800D6141B /* Info.plist */,
+				C17C00342C679ACE00DDF6F9 /* GoogleService-Info.plist */,
+				C15407512C674CA400D6141B /* ShoppyApp.swift */,
+				C15407532C674CA400D6141B /* ContentView.swift */,
+				C15407552C674CA600D6141B /* Assets.xcassets */,
+				C14867272C7B1E2500F0862F /* Shoppy.jpeg */,
+				C15407572C674CA600D6141B /* Preview Content */,
+				C154077B2C674D2C00D6141B /* LoginView.swift */,
+				C154077D2C674D4D00D6141B /* MainTabView.swift */,
+				C154077F2C674D6300D6141B /* StoreView.swift */,
+				C15407812C674D7D00D6141B /* CartView.swift */,
+				C15407832C674D8E00D6141B /* Product.swift */,
+				C15407862C67857600D6141B /* RegisterView.swift */,
+				C175DBA52C67925C00379433 /* AuthViewModel.swift */,
+				C14867232C79C13600F0862F /* ProductDetailView.swift */,
+				C14867252C7A214B00F0862F /* FirebaseDatabaseService.swift */,
+				C14867292C7B1F0600F0862F /* LaunchScreen.swift */,
+			);
+			path = Shoppy;
+			sourceTree = "<group>";
+		};
+		C15407572C674CA600D6141B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C15407582C674CA600D6141B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C15407612C674CA900D6141B /* ShoppyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C15407622C674CA900D6141B /* ShoppyTests.swift */,
+			);
+			path = ShoppyTests;
+			sourceTree = "<group>";
+		};
+		C154076B2C674CA900D6141B /* ShoppyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C154076C2C674CA900D6141B /* ShoppyUITests.swift */,
+				C154076E2C674CA900D6141B /* ShoppyUITestsLaunchTests.swift */,
+			);
+			path = ShoppyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C154074D2C674CA400D6141B /* Shoppy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C15407722C674CA900D6141B /* Build configuration list for PBXNativeTarget "Shoppy" */;
+			buildPhases = (
+				C154074A2C674CA400D6141B /* Sources */,
+				C154074B2C674CA400D6141B /* Frameworks */,
+				C154074C2C674CA400D6141B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shoppy;
+			packageProductDependencies = (
+				C15407892C67864000D6141B /* FirebaseAuth */,
+				C154078B2C67864000D6141B /* FirebaseDatabase */,
+				C154078D2C67864000D6141B /* FirebaseFirestore */,
+				C154078F2C67864000D6141B /* FirebaseStorage */,
+				C1914E5D2C678C4A003BFA89 /* GoogleSignIn */,
+				C1914E5F2C678C4A003BFA89 /* GoogleSignInSwift */,
+			);
+			productName = Shoppy;
+			productReference = C154074E2C674CA400D6141B /* Shoppy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C154075D2C674CA900D6141B /* ShoppyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C15407752C674CA900D6141B /* Build configuration list for PBXNativeTarget "ShoppyTests" */;
+			buildPhases = (
+				C154075A2C674CA900D6141B /* Sources */,
+				C154075B2C674CA900D6141B /* Frameworks */,
+				C154075C2C674CA900D6141B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C15407602C674CA900D6141B /* PBXTargetDependency */,
+			);
+			name = ShoppyTests;
+			productName = ShoppyTests;
+			productReference = C154075E2C674CA900D6141B /* ShoppyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C15407672C674CA900D6141B /* ShoppyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C15407782C674CA900D6141B /* Build configuration list for PBXNativeTarget "ShoppyUITests" */;
+			buildPhases = (
+				C15407642C674CA900D6141B /* Sources */,
+				C15407652C674CA900D6141B /* Frameworks */,
+				C15407662C674CA900D6141B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C154076A2C674CA900D6141B /* PBXTargetDependency */,
+			);
+			name = ShoppyUITests;
+			productName = ShoppyUITests;
+			productReference = C15407682C674CA900D6141B /* ShoppyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C15407462C674CA400D6141B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C154074D2C674CA400D6141B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					C154075D2C674CA900D6141B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C154074D2C674CA400D6141B;
+					};
+					C15407672C674CA900D6141B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C154074D2C674CA400D6141B;
+					};
+				};
+			};
+			buildConfigurationList = C15407492C674CA400D6141B /* Build configuration list for PBXProject "Shoppy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C15407452C674CA400D6141B;
+			packageReferences = (
+				C15407852C674F7C00D6141B /* XCRemoteSwiftPackageReference "FontAwesome" */,
+				C15407882C67864000D6141B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				C15407952C678A5400D6141B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = C154074F2C674CA400D6141B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C154074D2C674CA400D6141B /* Shoppy */,
+				C154075D2C674CA900D6141B /* ShoppyTests */,
+				C15407672C674CA900D6141B /* ShoppyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C154074C2C674CA400D6141B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15407592C674CA600D6141B /* Preview Assets.xcassets in Resources */,
+				C15407562C674CA600D6141B /* Assets.xcassets in Resources */,
+				C14867282C7B1E2500F0862F /* Shoppy.jpeg in Resources */,
+				C17C00352C679ACE00DDF6F9 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C154075C2C674CA900D6141B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15407662C674CA900D6141B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C154074A2C674CA400D6141B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15407822C674D7D00D6141B /* CartView.swift in Sources */,
+				C14867242C79C13600F0862F /* ProductDetailView.swift in Sources */,
+				C154077C2C674D2C00D6141B /* LoginView.swift in Sources */,
+				C15407542C674CA400D6141B /* ContentView.swift in Sources */,
+				C14867262C7A214B00F0862F /* FirebaseDatabaseService.swift in Sources */,
+				C15407522C674CA400D6141B /* ShoppyApp.swift in Sources */,
+				C15407802C674D6300D6141B /* StoreView.swift in Sources */,
+				C15407872C67857600D6141B /* RegisterView.swift in Sources */,
+				C148672A2C7B1F0600F0862F /* LaunchScreen.swift in Sources */,
+				C154077E2C674D4D00D6141B /* MainTabView.swift in Sources */,
+				C15407842C674D8E00D6141B /* Product.swift in Sources */,
+				C175DBA62C67925C00379433 /* AuthViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C154075A2C674CA900D6141B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15407632C674CA900D6141B /* ShoppyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15407642C674CA900D6141B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C154076D2C674CA900D6141B /* ShoppyUITests.swift in Sources */,
+				C154076F2C674CA900D6141B /* ShoppyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C15407602C674CA900D6141B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C154074D2C674CA400D6141B /* Shoppy */;
+			targetProxy = C154075F2C674CA900D6141B /* PBXContainerItemProxy */;
+		};
+		C154076A2C674CA900D6141B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C154074D2C674CA400D6141B /* Shoppy */;
+			targetProxy = C15407692C674CA900D6141B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C15407702C674CA900D6141B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C15407712C674CA900D6141B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C15407732C674CA900D6141B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shoppy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shoppy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.Shoppy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C15407742C674CA900D6141B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shoppy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shoppy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.Shoppy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C15407762C674CA900D6141B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.ShoppyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shoppy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shoppy";
+			};
+			name = Debug;
+		};
+		C15407772C674CA900D6141B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.ShoppyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shoppy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shoppy";
+			};
+			name = Release;
+		};
+		C15407792C674CA900D6141B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.ShoppyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shoppy;
+			};
+			name = Debug;
+		};
+		C154077A2C674CA900D6141B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.ShoppyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shoppy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C15407492C674CA400D6141B /* Build configuration list for PBXProject "Shoppy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C15407702C674CA900D6141B /* Debug */,
+				C15407712C674CA900D6141B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C15407722C674CA900D6141B /* Build configuration list for PBXNativeTarget "Shoppy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C15407732C674CA900D6141B /* Debug */,
+				C15407742C674CA900D6141B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C15407752C674CA900D6141B /* Build configuration list for PBXNativeTarget "ShoppyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C15407762C674CA900D6141B /* Debug */,
+				C15407772C674CA900D6141B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C15407782C674CA900D6141B /* Build configuration list for PBXNativeTarget "ShoppyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C15407792C674CA900D6141B /* Debug */,
+				C154077A2C674CA900D6141B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C15407852C674F7C00D6141B /* XCRemoteSwiftPackageReference "FontAwesome" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thii/FontAwesome.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.1;
+			};
+		};
+		C15407882C67864000D6141B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+		C15407952C678A5400D6141B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C15407892C67864000D6141B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C15407882C67864000D6141B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C154078B2C67864000D6141B /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C15407882C67864000D6141B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		C154078D2C67864000D6141B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C15407882C67864000D6141B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C154078F2C67864000D6141B /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C15407882C67864000D6141B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		C1914E5D2C678C4A003BFA89 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C15407952C678A5400D6141B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		C1914E5F2C678C4A003BFA89 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C15407952C678A5400D6141B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C15407462C674CA400D6141B /* Project object */;
+}
