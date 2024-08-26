@@ -1,6 +1,5 @@
-
-# Shop![logo](https://github.com/user-attachments/assets/5184b2ea-d7e7-4f62-a79f-fcc97165771b)
-py
+![logo](https://github.com/user-attachments/assets/5184b2ea-d7e7-4f62-a79f-fcc97165771b)
+# Shoppy
 
 Shoppy is a user-friendly e-commerce app built with SwiftUI. It offers a seamless shopping experience with real-time product updates and secure user authentication.
 
